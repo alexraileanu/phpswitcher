@@ -16,7 +16,7 @@ if [[ -z $NEW_PHP_VERSION ]]; then
     echo -e "Example usage: ${YELLOW}phpswitcher 7.0${NC} to switch to php version 7.0"
     exit -2
 fi
-exit
+
 a2dismod $INSTALLED_PHP_VERSION
 a2enmod php$NEW_PHP_VERSION
 
