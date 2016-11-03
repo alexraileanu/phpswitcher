@@ -8,8 +8,6 @@ Small utility to seamlessly switch between php versions.
 
 `$ git clone git@github.com:alexraileanu/phpswitcher.git`
 
-`$ cd phpswitcher`
-
 `$ cd /usr/local/bin`
 
 `$ sudo ln -s /path/to/phpswitcher/phpswitcher.sh phpswitcher`
