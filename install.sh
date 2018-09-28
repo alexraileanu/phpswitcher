@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone git@github.com:alexraileanu/phpswitcher.git /tmp/phpswitcher
+path="/home/$(whoami)/.phpswitcher"
 
-cd /usr/local/bin
-
-ln -s /tmp/phpswitcher/phpswitcher.sh phpswitcher
+git clone https://github.com/alexraileanu/phpswitcher $path

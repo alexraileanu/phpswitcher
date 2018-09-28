@@ -8,15 +8,17 @@ Small utility to seamlessly switch between php versions.
 
 `$ wget https://github.com/alexraileanu/phpswitcher/blob/master/install.sh | sudo sh`
 
-This installs phpswitcher globally in /usr/local/bin. If you prefer installing it locally for each user follow these steps:
+This installs phpswitcher globally in your home directory under `.phpswitcher`.
 
-`$ git clone git@github.com:alexraileanu/phpswitcher.git ~/.phpswitcher`
+To use it globally, you need to add the install location to your path variable. Add the following to your `.zshrc` or `.bashrc`:
+
+`export PATH="$PATH:$HOME/.phpswitcher"`
+
 
 ### Usage
 
-If you've installed phpswitcher globally and assuming you want to migrate from other version to 7.0 you run the following: `$ sudo phpswitcher 7.0` (this runs with sudo because it needs to update some alternatives and disable/enable some apache modules).
+Assuming you want to migrate from other version to 7.0 you run the following: `$ sudo phpswitcher 7.0`. Sudo is needed because it needs to update some alternatives and disable/enable some apache modules.
 
-If you've installed phpswitcher locally for a user you can run the following command to switch to php 7.0 from, for example, 5.6 `$ sudo ~/.phpswitcher/phpswitcher.sh 7.0`
 
 ## Assumptions
 
