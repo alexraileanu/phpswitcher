@@ -8,7 +8,7 @@ Small utility to seamlessly switch between php versions.
 
 `$ wget https://github.com/alexraileanu/phpswitcher/blob/master/install.sh | sudo sh`
 
-This installs phpswitcher globally in your home directory under `.phpswitcher`.
+This installs phpswitcher in your home directory under `.phpswitcher`.
 
 To use it globally, you need to add the install location to your path variable. Add the following to your `.zshrc` or `.bashrc`:
 
